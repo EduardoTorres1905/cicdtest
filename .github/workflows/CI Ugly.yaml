@@ -24,4 +24,4 @@ jobs:
           docker push myapp:latest
 
       - name: Deploy to production
-        run: ./deploy.sh prod
+        run: bash app/deploy.sh prod
