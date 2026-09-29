@@ -10,6 +10,7 @@ jobs:
 
       - name: Run tests
         run: |
+          pip install pytest -q
           pytest -q
 
       - name: Build and push
